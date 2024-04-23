@@ -12,6 +12,6 @@ function choisoyeon() {
     }
     return sum;
 }
-console.log('2~11까지의 합은 '+ choisoyeon());
+console.log('2~11까지의 합은 ' + choisoyeon());
 
 console.log(oneArray3());

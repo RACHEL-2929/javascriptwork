@@ -24,7 +24,7 @@ function oneArray2() {
         array[i] = ++init;
         console.log(array[i]);
     }
-    
+
 }
 console.log(oneArray2());
 
@@ -54,7 +54,7 @@ function oneArray3() {
         sum = sum + array[i];
     }
     return sum;
-    
+
 }
 
 console.log(oneArray3());
