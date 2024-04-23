@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function Login() {
+            var frm = document.loginfrm;
+            //다음페이지로 모든 파라미터 값 넘긴다
+            frm.action = "loginnext.html";
+            frm.method = "get";
+            frm.submit();
+        }
+
+
+
+
+    </script>
+
+
+
+
+
+
+</head>
+
+<body>
+    <form name="loginfrm">
+
+        userid <input type="text" name="userid" id=""><br>
+        passwd <input type="password" name="passwd" id=""><br>
+        <input type="button" value="login" onclick="Login">
+
+    </form>
+
+
+
+
+
+
+</body>
+
+</html>

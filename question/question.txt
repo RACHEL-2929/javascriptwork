@@ -2,3 +2,22 @@
 함수: 내이름
 2~11 배열 만들거나 (입력하거나) 합을 구하고 return 출력
 일일과제
+
+
+        name
+userid userid
+passwd passwd
+email email
+phone phone
+
+내이름Login.html -> 내이름Loginnext.html
+
+frm2/내이름Login.html
+frm2/내이름Loginnext.html
+
+
+java/react
+document.getelementbyid
+document.getelementtabname
+document.getelementclassname
+innerhtml innertext

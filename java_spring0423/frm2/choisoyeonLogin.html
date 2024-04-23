@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+
+        function Login() {
+            var frm = document.loginfrm;
+
+            window.alert(frm.userid.value);
+            window.alert(frm.passwd.value);
+            window.alert(frm.email.value);
+            window.alert(frm.phone.value);
+            //다음페이지로 모든 파라미터 값 넘긴다
+            frm.action = "choisoyeonLoginnext.html";
+            //
+            frm.method = "get";
+            //
+            frm.submit();
+        }
+    </script>
+</head>
+
+<body>
+    <form name="loginfrm">
+        userid <input type="text" name="userid"><br>
+        passwd <input type="password" name="passwd" id=""><br>
+        email <input type="email" name="email" id=""><br>
+        phone <input type="tel" name="phone" id=""><br>
+
+        <input type="button" value="login" onclick="Login()">
+    </form>
+</body>
+
+</html>
