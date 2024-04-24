@@ -21,3 +21,13 @@ document.getelementbyid
 document.getelementtabname
 document.getelementclassname
 innerhtml innertext
+
+
+0424
+폴더명 inner/내이름id.html
+
+이름(id=name)/나이(id =age) /주소(id = address)
+
+div
+
+이름 나이 주소 출력
