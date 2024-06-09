@@ -1,14 +1,17 @@
 var string;
+// 작은 따옴표로도 가능
 string = "Javascript";
 
 console.log(string); //Javascript
 console.log(typeof string); //string
 
+// 큰 따옴표로도 가능
 string = "JavaScript";
 
-console.log(string);
-console.log(typeof string);
+console.log(string); //Javascript
+console.log(typeof string); //string
 
+// 개행을 하고 싶다면 \n을 넣어야 한다
 var multiline = "안녕하세요\n반갑습니다";
 
 console.log(multiline);
@@ -24,5 +27,7 @@ var lastName = "홍";
 var firstName = "길동";
 
 console.log("제 이름은 " + lastName + firstName + "입니다.");
-
+// 제 이름은 홍길동입니다.
 console.log(`제 이름은 ${lastName}${firstName}입니다.`);
+// 제 이름은 홍길동입니다.
+// 백틱을 사용하면 문자열 안에서도 ${}을 사용하면 변수를 출력가능하다
